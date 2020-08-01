@@ -9,7 +9,7 @@ to: .blueprint/controllers/<%= name %>.js
  options = {NamePlural, NameLowerCased, NameLowerCasedPlural, NameCapitalized}
 %>
 module.exports = {
-    name : "<%- name  %>",
+    name : "<%- NameCapitalized  %>",
     definition: <%- h.controllerStub(name, options)  %>
 }
 

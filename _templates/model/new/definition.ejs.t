@@ -1,8 +1,11 @@
 ---
 to: .blueprint/models/<%= name %>.js
 ---
+<%
+ NameCapitalized = h.capitalize(name)
+%>
 module.exports = {
-    name : "<%- name  %>",
+    name : "<%- NameCapitalized  %>",
     definition: <%- h.modelStub(name, {})  %>
 }
 
