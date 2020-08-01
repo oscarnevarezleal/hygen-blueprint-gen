@@ -19,5 +19,7 @@
     "dependencies": {
         "blueprint-gen": "^1.0.5"
     },
-    "devDependencies": {}
+    "devDependencies": {
+        "hygen-blueprint-gen": "^1.0.61"
+    }
 }
