@@ -1,6 +1,6 @@
 {
     "name": "hygen-blueprint-gen",
-    "version": "1.0.64",
+    "version": "1.0.65",
     "description": "",
     "main": ".hygen.js",
     "scripts": {
@@ -17,9 +17,9 @@
     },
     "homepage": "https://github.com/oscarnevarezleal/hygen-blueprint-gen#readme",
     "dependencies": {
-        "blueprint-gen": "^1.0.64"
+        "blueprint-gen": "^1.0.65"
     },
     "devDependencies": {
-        "hygen-blueprint-gen": "^1.0.63"
+        "hygen-blueprint-gen": "^1.0.64"
     }
 }
