@@ -23,6 +23,15 @@ blueprint-gen@^1.0.5:
     debug "^4.1.1"
     js-yaml "^3.13.1"
 
+blueprint-gen@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/blueprint-gen/-/blueprint-gen-1.0.6.tgz#a96cc6600de26ddbcddda760348bb3a97fb3e2a6"
+  integrity sha512-vFlXY6V+olRnu5VsXppoUFbYFJiPg0BZ1pH1K+aWED6Dk0097gob9VELu8a7ZWksp/nneI4KRV1g03CCPBTiQw==
+  dependencies:
+    "@types/node" "^14.0.26"
+    debug "^4.1.1"
+    js-yaml "^3.13.1"
+
 debug@^4.1.1:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.1.1.tgz#3b72260255109c6b589cee050f1d516139664791"
