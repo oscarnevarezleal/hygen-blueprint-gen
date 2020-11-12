@@ -1,6 +1,7 @@
-#Hygen Blueprint Plugin
+# Hygen Blueprint Plugin
 
-This is a hygen plugin ([https://www.hygen.io/](https://www.hygen.io/)) that facilitates the creation of blueprint templates.
+This is a [hygen](https://www.hygen.io/) plugin  that facilitates the creation of [blueprint](https://github.com/laravel-shift/blueprint) templates.
+
 
 ## Installation
 
@@ -15,7 +16,7 @@ This plugin extends the default helpers, which are only available when you expli
 module.exports = require('hygen-blueprint-gen')
 ```
 
-## Available commands
+## Usage
 
 ```
 hygen model new ModelName
