@@ -6,6 +6,6 @@ to: .blueprint/models/<%= name %>.js
 %>
 module.exports = {
     name : "<%- NameCapitalized  %>",
-    definition: <%- h.modelStub(name, {})  %>
+    definition: <%- h.modelStub(locals, name, {})  %>
 }
 

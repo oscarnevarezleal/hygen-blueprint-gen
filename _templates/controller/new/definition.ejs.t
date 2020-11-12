@@ -10,6 +10,6 @@ to: .blueprint/controllers/<%= name %>.js
 %>
 module.exports = {
     name : "<%- NameCapitalized  %>",
-    definition: <%- h.controllerStub(name, options)  %>
+    definition: <%- h.controllerStub(locals, name, options)  %>
 }
 
