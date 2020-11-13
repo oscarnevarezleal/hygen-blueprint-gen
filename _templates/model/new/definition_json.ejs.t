@@ -1,5 +1,5 @@
 ---
-to: .blueprint/models/<%= name %>.js
+to: .blueprint/models/<%= name %>.json
 ---
 <%
  NameCapitalized = h.capitalize(name)

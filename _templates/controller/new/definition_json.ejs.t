@@ -1,5 +1,5 @@
 ---
-to: .blueprint/controllers/<%= name %>.js
+to: .blueprint/controllers/<%= name %>.json
 ---
 <%
  NamePlural = h.inflection.pluralize(name)
