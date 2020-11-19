@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@types/node@^14.0.26":
-  version "14.0.27"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.0.27.tgz#a151873af5a5e851b51b3b065c9e63390a9e0eb1"
-  integrity sha512-kVrqXhbclHNHGu9ztnAwSncIgJv/FaxmzXJvGXNdcCpV1b8u1/Mi6z6m0vwy0LzKeXFTPLH0NzwmoJ3fNCIq0g==
+"@types/js-yaml@^3.12.5":
+  version "3.12.5"
+  resolved "https://registry.yarnpkg.com/@types/js-yaml/-/js-yaml-3.12.5.tgz#136d5e6a57a931e1cce6f9d8126aa98a9c92a6bb"
+  integrity sha512-JCcp6J0GV66Y4ZMDAQCXot4xprYB+Zfd3meK9+INSJeVZwJmHAW30BBEEkPzXswMXuiyReUGOP3GxrADc9wPww==
 
 argparse@^1.0.7:
   version "1.0.10"
@@ -14,21 +14,12 @@ argparse@^1.0.7:
   dependencies:
     sprintf-js "~1.0.2"
 
-blueprint-gen@^1.0.64:
-  version "1.0.64"
-  resolved "https://registry.yarnpkg.com/blueprint-gen/-/blueprint-gen-1.0.64.tgz#71c71c202f8876ea67310af9c7d575c699e0a0fa"
-  integrity sha512-cSgBeEqaFmm0U3kpRs9ay/aKUXpo0ixw5NCf7XHxBc4SK4hVXPFE1uxkNkRDaF7bB+YCrLr1hVXFij1bVQ128w==
+blueprint-gen@^1.0.80:
+  version "1.0.80"
+  resolved "https://registry.yarnpkg.com/blueprint-gen/-/blueprint-gen-1.0.80.tgz#9e6e6ce08d2ddd5e3c7a43bca6b07a4abefa6f34"
+  integrity sha512-NpfQL27LU3kBGJz2VWkA4D67pQBdW5MuVxKUahTTtzVxLY2vyBls8meDIzy4WImyfGlG/dtnL18d+uUC/Y9jiw==
   dependencies:
-    "@types/node" "^14.0.26"
-    debug "^4.1.1"
-    js-yaml "^3.13.1"
-
-blueprint-gen@^1.0.65:
-  version "1.0.65"
-  resolved "https://registry.yarnpkg.com/blueprint-gen/-/blueprint-gen-1.0.65.tgz#863594490d5c01b7f091323ea5cc6ecd5287335c"
-  integrity sha512-lqcZ8+HzhtB6ik5JAtK4VpQ3co1mfib4mI7oKckowcXt6NMqu8qFFyyzTbjEbMtfWhAIzp6sZN/wJSi+QFGEaQ==
-  dependencies:
-    "@types/node" "^14.0.26"
+    "@types/js-yaml" "^3.12.5"
     debug "^4.1.1"
     js-yaml "^3.13.1"
 
@@ -43,13 +34,6 @@ esprima@^4.0.0:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/esprima/-/esprima-4.0.1.tgz#13b04cdb3e6c5d19df91ab6987a8695619b0aa71"
   integrity sha512-eGuFFw7Upda+g4p+QHvnW0RyTX/SVeJBDM/gCtMARO0cLuT2HcEKnTPvhjV6aGeqrCB/sbNop0Kszm0jsaWU4A==
-
-hygen-blueprint-gen@^1.0.64:
-  version "1.0.64"
-  resolved "https://registry.yarnpkg.com/hygen-blueprint-gen/-/hygen-blueprint-gen-1.0.64.tgz#7d5f590d70142ddbf6a8dbf9b9c19aaae75f352e"
-  integrity sha512-fszDalSKUyxZY707dSthJ/Z3U6pT/esP37xGoHsILH2mSWi1LNmlLAVDyf0s1wMpZg5hjk8d5seaPEKzStPu2w==
-  dependencies:
-    blueprint-gen "^1.0.64"
 
 js-yaml@^3.13.1:
   version "3.14.0"
