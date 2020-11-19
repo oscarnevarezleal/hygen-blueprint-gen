@@ -25,7 +25,6 @@ jobs:
         with:
           node-version: 12
       - run: npm i -g hygen
-      - run: hygen -v
       - run: npm i
       - run: npm ci
       - run: npm run-script build
