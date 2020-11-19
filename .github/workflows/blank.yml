@@ -25,10 +25,11 @@ jobs:
         with:
           node-version: 12
       - run: npm i -g hygen
+      - run: hygen -v
       - run: npm i
       - run: npm ci
       - run: npm run-script build
       - run: npm test
-      - run: hygen model new Post
-      - run: hygen controller new Post
+      - run: DEBUG=* hygen model new Post --content longtext --title varchar:180
+      - run: DEBUG=* hygen controller new Post --flag 0
       - run: node build.js
