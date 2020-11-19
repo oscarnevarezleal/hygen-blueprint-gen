@@ -24,6 +24,10 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12
+      - run: npm i -g hygen
       - run: npm ci
-      - run: npm test
       - run: npm run-script build
+      - run: npm test
+      - run: hygen model new Post
+      - run: hygen controller new Post
+      - run: node build.js
