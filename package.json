@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/oscarnevarezleal/hygen-blueprint-gen#readme",
   "dependencies": {
-    "blueprint-gen": "^1.0.80"
+    "blueprint-gen": "^1.0.82"
   }
 }
