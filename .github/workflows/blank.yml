@@ -26,9 +26,11 @@ jobs:
           node-version: 12
       - run: npm i -g hygen
       - run: yarn
+      - run: ls -lth node_modules/blueprint-gen
       - run: cp -R node_modules/blueprint-gen/dist .
       - run: cp -R ./node_modules/blueprint-gen/_templates .
       - run: cp node_modules/blueprint-gen/.hygen.js .
+      - run: cp node_modules/blueprint-gen/*.js .
       - run: ls -ltah
       - run: npm test
       - run: DEBUG=* hygen model new Post --content longtext --title varchar:180
