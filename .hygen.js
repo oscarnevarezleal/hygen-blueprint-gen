@@ -1,1 +1,1 @@
-module.exports = require('./dist/blueprint_gen.js')
+module.exports = require('./dist/blueprint_gen.js').default.default;
