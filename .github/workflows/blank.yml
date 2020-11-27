@@ -36,4 +36,5 @@ jobs:
       - run: DEBUG=* hygen controller new Post --flag 0
       - run: cat build.js
       - run: DEBUG=* node build.js
-      - run: cat .blueprint/.blueprint.yml
+      - run: cat .blueprint/.blueprint.json
+      - run: cat .blueprint/.blueprint.yaml
