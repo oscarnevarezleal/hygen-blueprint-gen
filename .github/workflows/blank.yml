@@ -35,4 +35,6 @@ jobs:
       - run: npm test
       - run: DEBUG=* hygen model new Post --content longtext --title varchar:180
       - run: DEBUG=* hygen controller new Post --flag 0
-      - run: DEBUG=* node build.js && cat .blueprint/.blueprint.yml
+      - run: cat build.js
+      - run: DEBUG=* node build.js
+      - run: cat .blueprint/.blueprint.yml
